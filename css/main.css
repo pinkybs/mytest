@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+----------------------------------------------
+Created Date : 2010/11/27
+Author: Triatan
+Last Up Date : 2009/11/27
+Author: Triatan
+----------------------------------------------
+*/
+
+/* @reset
+----------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+	border: 0;
+}
+a {
+	outline: none;
+}
+a img {
+	border: 0;	
+}
+
+.clearFix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearFix {
+	min-height:1px;
+}
+
+*html .clearFix {
+	height:1px;
+}
+
+.clear{clear:both;visibility:hidden;line-height:0px;height:0px;overflow:hidden;font-size:0;}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: 1.2;
+	background: none;
+}
+
+a:link {
+
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+
+/* @layout
+----------------------------------------------*/
+/*html,body{height:100%;}*/
+body{background-color:#000;}
+
+.cake_wrap{width:960px;margin:0 auto;background-color:#b20000;}
+.cake_content{width:700px;position:relative;height:1000px;}
+.cake_item{/*-webkit-transform:rotate(10deg);*/width:180px;height:190px;position:absolute;background:url(../images/cake_c.png) no-repeat;left:0;top:0;}
+.cake_item img{position:absolute;left:5px;top:5px;}
+.cake1{background:url(../images/cake_tl.png) no-repeat;/*left:0;top:0;*/}
+.cake2{background:url(../images/cake_t.png) no-repeat;/*left:128px;top:0;*/}
+.cake3{background:url(../images/cake_t.png) no-repeat;/*left:256px;top:0;*/}
+.cake4{background:url(../images/cake_t.png) no-repeat;/*left:384px;top:0;*/}
+.cake5{background:url(../images/cake_tr.png) no-repeat;/*left:512px;top:0;*/}
+.cake_l{background:url(../images/cake_l.png) no-repeat;/*left:0;top:128px;*/}
+.cake_c{background:url(../images/cake_c.png) no-repeat;/*left:128px;top:128px;*/}
+.cake_r{background:url(../images/cake_r.png) no-repeat;/*left:256px;top:128px;*/}
+
+
+.nav{position:fixed;left:50%;bottom:0;width:560px;margin-left:-280px;}
+.nav li{float:left;}
+.nav li a{display:block;width:112px;height:113px;opacity:0.8;}
+.nav li a#nav1{background:#fff url(../images/char_a.png) no-repeat;}
+.nav li a#nav2{background:#fff url(../images/char_b.png) no-repeat;}
+.nav li a#nav3{background:#fff url(../images/char_c.png) no-repeat;}
+.nav li a#nav4{background:#fff url(../images/char_d.png) no-repeat;}
+.nav li a#nav5{background:#fff url(../images/char_e.png) no-repeat;}
+
+#del{color:#fff;position:absolute;top:100px;right:50px;font-size:24px;font-weight:bold;}
+
+
+
+
